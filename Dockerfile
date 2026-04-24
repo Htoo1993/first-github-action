@@ -9,5 +9,6 @@ WORKDIR /app
 ARG JAR_FILE=target/first-github-action.jar
 COPY ${JAR_FILE} first-github-action.jar
 
+EXPOSE 1300
 # Run the application
 ENTRYPOINT ["java", "-jar", "first-github-action.jar"]

@@ -43,6 +43,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>first-github-action</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -50,5 +51,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

@@ -10,4 +10,4 @@ ARG JAR_FILE=target/first-github-action.jar
 COPY ${JAR_FILE} first-github-action.jar
 
 # Run the application
-ENTRYPOINT ["java", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-jar", "first-github-action.jar"]
